@@ -1,10 +1,10 @@
 import math
 
 def func(x):
-    return 2*x - math.sin(x) - 0.7
+    return 2*x - math.sin(x) - 0.7 //Customize
 
-first, last = 0.00, 1.00
-wanted_err = 0.01
+first, last = 0.00, 1.00 //Customize
+wanted_err = 0.01 //Customize
 p = (first + last)/2
 n = 1
 situation = '.'
